@@ -28,25 +28,29 @@ Before you start, ensure you have the following installed:
    git clone https://github.com/Ahmadsani31/app-windows-aplication-backend.git
 
    
-    ```bash
-    cd app-windows-aplication-backend
-    composer install
+   ```bash
+   cd app-windows-aplication-backend
+   composer install
 
- ```bash
+   
+   ```bash
    cp .env.example .env
 
- ```bash
+
+   ```bash
    php artisan key:generate
 
- ```bash
-   DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=your_database_name
-    DB_USERNAME=your_database_user
-    DB_PASSWORD=your_database_password
 
- ```bash
+   ```bash
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_database_user
+   DB_PASSWORD=your_database_password
+
+
+   ```bash
    php artisan migrate
 
 
