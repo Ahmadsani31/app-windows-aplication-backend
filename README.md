@@ -24,14 +24,14 @@ Before you start, ensure you have the following installed:
 
    Clone the repository to your local machine using the following command:
 
-   ```bash
+   ```
    git clone https://github.com/Ahmadsani31/app-windows-aplication-backend.git
-
+   ```
    
-   ```bash
+   ```
    cd app-windows-aplication-backend
    composer install
-
+   ```
    
    ```bash
    cp .env.example .env
