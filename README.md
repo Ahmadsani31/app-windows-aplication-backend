@@ -7,7 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Aplikasi
+
+# Laravel Project
+
+This is a Laravel project. Follow the steps below to get started with the installation and setup of the Laravel application.
+
+## Prerequisites
+
+Before you start, ensure you have the following installed:
+
+- PHP >= 8.2
+  
+## Steps to Install
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/Ahmadsani31/app-windows-aplication-backend.git
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
