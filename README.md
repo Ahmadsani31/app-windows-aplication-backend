@@ -9,7 +9,6 @@
 
 # About Aplikasi
 
-
 This is a Laravel project. Follow the steps below to get started with the installation and setup of the Laravel application.
 
 ## Prerequisites
@@ -33,28 +32,28 @@ Before you start, ensure you have the following installed:
    composer install
    ```
    
-   ```bash
+   ```
    cp .env.example .env
+   ```
 
-
-   ```bash
+   ```
    php artisan key:generate
+   ```
 
-
-   ```bash
+   ```
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
    DB_DATABASE=your_database_name
    DB_USERNAME=your_database_user
    DB_PASSWORD=your_database_password
+   ```
 
-
-   ```bash
+   ```
    php artisan migrate
+   ```
 
-
-
+##
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
